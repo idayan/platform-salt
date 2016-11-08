@@ -18,6 +18,14 @@ elasticsearch:
   confdir: /etc/elasticsearch
   workdir: /tmp/elasticsearch
 
+elasticsearch2:
+  version: 2.4.0
+  directory: /opt/pnda
+  logdir: /var/log/elasticsearch2
+  datadir: /var/lib/elasticsearch2
+  confdir: /etc/elasticsearch2
+  workdir: /tmp/elasticsearch2
+
 jupyter:
   version: 4.2.0
   confdir: /usr/local/etc/jupyter
